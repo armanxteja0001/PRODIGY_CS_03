@@ -17,7 +17,6 @@ def check_password_strength(password):
     else:
         return "Weak"
 
-# === Interface ===
 print("🔐 Password Strength Checker 🔐")
 password = input("Enter your password: ")
 strength = check_password_strength(password)
